@@ -1,0 +1,53 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 8px; 
+  border: 1px solid #ddd; 
+}
+td {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.info {
+    color: #3774b6;
+    text-align: right;
+    width: 100%;
+}
+.name{
+    font-size: 2rem;
+    background-color:#3774b6;
+    color: white;
+    text-align: center;
+}
+hr{
+    border: 1px solid #3774b6;
+}
+h3{
+    color: #3774b6;
+}
+body{
+    margin: 0px 400px 0px 400px;
+}
+.personalinfo{
+    display: flex;
+}
+img{
+    max-height: 150px;
+    width: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+}
